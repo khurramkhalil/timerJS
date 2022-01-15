@@ -1,3 +1,4 @@
+//Timer Class for start, pause and pause functionality.
 class Timer {
   constructor(durationInput, startButton, pauseButton, callbacks) {
     this.durationInput = durationInput;
