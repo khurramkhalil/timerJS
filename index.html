@@ -24,29 +24,37 @@
 
 <body>
 
-  <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
-  <svg height="600" width="600">
-    <circle r="120" cx="130" cy="130"/>
-  </svg>
+<!-- Add your site or application content here -->
+<p>Hello world! This is HTML5 Boilerplate.</p>
+<svg height="600" width="600">
+  <circle id="circle" r="120" cx="130" cy="130" fill="transparent" stroke="blue" stroke-width="15"
+          transform="rotate(-90 130 130)"/>
+</svg>
 
-  <input id="duration" value="30">
-  <button id="start">Start</button>
-  <button id="pause">Pause</button>
+<input id="duration" value="30">
+<button id="start">Start</button>
+<button id="pause">Pause</button>
 
 
-  <script src="js/timer.js"></script>
-  <script src="js/index.js"></script>
-  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
+<script src="js/timer.js"></script>
+<script src="js/index.js"></script>
+<script src="js/vendor/modernizr-3.11.2.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
 
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async></script>
+<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+<script>
+  window.ga = function () {
+    ga.q.push(arguments)
+  };
+  ga.q = [];
+  ga.l = +new Date;
+  ga('create', 'UA-XXXXX-Y', 'auto');
+  ga('set', 'anonymizeIp', true);
+  ga('set', 'transport', 'beacon');
+  ga('send', 'pageview')
+</script>
+<script src="https://www.google-analytics.com/analytics.js" async></script>
 </body>
 
 </html>
